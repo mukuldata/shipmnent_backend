@@ -1,4 +1,3 @@
-const AWS = require("aws-sdk");
 const { SESClient } = require("@aws-sdk/client-ses");
 const { SQSClient} = require("@aws-sdk/client-sqs")
 require("dotenv").config();

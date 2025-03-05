@@ -28,7 +28,6 @@ This is a Node.js project that provides a RESTful API for managing orders and us
 
 * **POST /api/orders**: Create a new order
 * **GET /api/orders/:id**: Get an order by ID
-* **GET /api/orders**: Get all orders for a user
 
 
 **Project Structure**
@@ -81,6 +80,8 @@ Here's an overview of the workflow:
 ![image](https://github.com/user-attachments/assets/439c2612-c72f-4356-bd00-960a2fb428c4)
 
 ### Email Recieved
+
+!!!! Currently SES works for verified email ID only in AWS.
 ![image](https://github.com/user-attachments/assets/a506e6be-e2aa-444e-a3a0-69dd5faa29a3)
 
 ### Database
